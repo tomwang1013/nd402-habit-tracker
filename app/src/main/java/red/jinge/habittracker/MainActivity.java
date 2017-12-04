@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
         while (cursor.moveToNext()) {
             String info = HabitContract.HabitEntry._ID + ": "
-                    + cursor.getInt(cursor.getColumnIndex(HabitContract.HabitEntry._ID))
+                    + cursor.getInt(cursor.getColumnIndex(HabitContract.HabitEntry._ID)) + ", "
                     + HabitContract.HabitEntry.COLUMN_NAME + ": "
                     + cursor.getString(cursor.getColumnIndex(HabitContract.HabitEntry.COLUMN_NAME)) + ", "
                     + HabitContract.HabitEntry.COLUMN_DESC + ": "
