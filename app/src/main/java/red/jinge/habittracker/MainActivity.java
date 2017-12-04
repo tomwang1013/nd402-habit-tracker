@@ -22,22 +22,22 @@ public class MainActivity extends AppCompatActivity {
          */
 
         // 插入数据
-        insertHabit("按时睡觉",
-                "每天11点准时睡觉",
+        insertHabit(getString(R.string.habit1_name),
+                getString(R.string.habit1_desc),
                 HabitContract.HabitEntry.COLUMN_TYPE_SLEEP);
-        insertHabit("按时吃饭",
-                "早餐：7点；午餐：12点；晚餐：6点",
+        insertHabit(getString(R.string.habit2_name),
+                getString(R.string.habit2_desc),
                 HabitContract.HabitEntry.COLUMN_TYPE_EATING);
-        insertHabit("适量运动",
-                "每周游泳3次，跑步2次，每次半小时",
+        insertHabit(getString(R.string.habit3_name),
+                getString(R.string.habit3_desc),
                 HabitContract.HabitEntry.COLUMN_TYPE_SPORT);
 
         // 读取数据
         readHabits();
 
         // 更新数据
-        updateHabit(1, "每天晚上10点准时睡觉");
-        updateHabit(2, "不吃早餐；午餐：12点；晚餐：6点");
+        updateHabit(1, getString(R.string.habit1_new_desc));
+        updateHabit(2, getString(R.string.habit2_new_desc));
 
         // 在此读取数据
         readHabits();

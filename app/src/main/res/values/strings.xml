@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">habit tracker</string>
+    <string name="hello_world">Hello, world!</string>
+
+    <string name="habit1_name">按时睡觉</string>
+    <string name="habit1_desc">每天11点准时睡觉</string>
+    <string name="habit1_new_desc">每天晚上10点准时睡觉</string>
+
+    <string name="habit2_name">按时吃饭</string>
+    <string name="habit2_desc">早餐：7点；午餐：12点；晚餐：6点</string>
+    <string name="habit2_new_desc">不吃早餐；午餐：12点；晚餐：6点</string>
+
+    <string name="habit3_name">适量运动</string>
+    <string name="habit3_desc">每周游泳3次，跑步2次，每次半小时</string>
 </resources>
